@@ -1,0 +1,89 @@
+object FormKoordinat: TFormKoordinat
+  Left = 194
+  Height = 679
+  Top = 97
+  Width = 768
+  Caption = 'FormKoordinat'
+  ClientHeight = 0
+  ClientWidth = 0
+  LCLVersion = '3.4.0.0'
+  object ButtonTitik: TButton
+    Left = 16
+    Height = 25
+    Top = 591
+    Width = 75
+    Caption = 'Titik'
+    TabOrder = 0
+  end
+  object ButtonGaris: TButton
+    Left = 104
+    Height = 25
+    Top = 591
+    Width = 75
+    Caption = 'Garis'
+    TabOrder = 1
+  end
+  object ButtonKotak: TButton
+    Left = 192
+    Height = 25
+    Top = 591
+    Width = 75
+    Caption = 'Kotak'
+    TabOrder = 2
+  end
+  object ButtonLingkaran: TButton
+    Left = 280
+    Height = 25
+    Top = 591
+    Width = 75
+    Caption = 'Lingkaran'
+    TabOrder = 3
+  end
+  object ButtonHapus: TButton
+    Left = 368
+    Height = 25
+    Top = 591
+    Width = 75
+    Caption = 'Hapus'
+    TabOrder = 4
+  end
+  object ButtonSegitiga1: TButton
+    Left = 16
+    Height = 25
+    Top = 631
+    Width = 75
+    Caption = 'Segi3-1'
+    TabOrder = 5
+  end
+  object ButtonSegilima: TButton
+    Left = 104
+    Height = 25
+    Top = 631
+    Width = 75
+    Caption = 'Segilima'
+    TabOrder = 6
+  end
+  object ButtonSegi3dua: TButton
+    Left = 192
+    Height = 25
+    Top = 631
+    Width = 75
+    Caption = 'Segi3-2'
+    TabOrder = 7
+  end
+  object ButtonBintang: TButton
+    Left = 280
+    Height = 25
+    Top = 631
+    Width = 75
+    Caption = 'Bintang'
+    TabOrder = 8
+  end
+  object LabelKoordinat: TLabel
+    Left = 88
+    Height = 15
+    Top = 48
+    Width = 80
+    Caption = 'LabelKoordinat'
+  end
+end
